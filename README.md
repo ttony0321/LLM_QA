@@ -71,7 +71,7 @@ find_all_linear_names 함수 활용해서 사용할수 없는 레이어를 걸�
 판단 하기 힘든경우에는 ``` torch.nn.Linear`, `torch.nn.Embedding`, `torch.nn.Conv2d`, `transformers.pytorch_utils.Conv1D` ``` 이 4가지중에 있다고 판단하면 좋다고 생각합니다.
 
 ### 학습시간
-기존 Baseline 에서 사용하던 KoGPT2(https://github.com/SKT-AI/KoGPT2)로 학습하던 환경은 1Epoch 당 5분정도, GPU 사용량은 2GB정도로 어느정도 성능내려면 1~2시간 정도 학습하였습니다.
+기존 Baseline 에서 사용하던 KoGPT2(https://github.com/SKT-AI/KoGPT2) 로 학습하던 환경은 1Epoch 당 5분정도, GPU 사용량은 2GB정도로 어느정도 성능내려면 1~2시간 정도 학습하였습니다.
 
 LLM_dL_notebook_Nw에서 사용하였던 EleutherAI/polyglot-ko-1.3b 모델에서 학습하였던 환경은 1Epoch당 30분 정도, GPU 사용량은 8 ~ 9GB정도로 5 ~ 6시간정도 학습하였습니다.
 
